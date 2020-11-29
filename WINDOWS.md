@@ -1,7 +1,9 @@
-Do you know what you do when you first open internet explorer?
-Exactly, we install chrome or firefox. 
+# To Be Redone
 
-The same is true for developing. First you need to install Ubuntu on your computer, as a dual boot.
+
+# Only dual boot if you feel confident enough (are okay with switching)
+
+## Else, do a VM
 
 ## Backup your data
 
