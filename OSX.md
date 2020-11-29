@@ -44,17 +44,17 @@ cat ~/.ssh/id_ed25519.pub
 
 Copy-paste the public SSH key which we outputed with the last command and [add it to GitHub](https://github.com/settings/ssh).
 
-## Slack
+## Discord
 
-[Install Slack for Mac](https://slack.com/intl/es-es/downloads/osx).
+[Install Discord](https://discord.com/download).
 
-Launch the app and sign in to `aisaturdays-hispano` organization.
+
 
 Make sure you upload a picture there.
 
-You can also sign in to Slack on your iPhone or Android device!
+You can also sign in to Discord on your iPhone or Android device!
 
-The idea is that you'll have Slack open all day, so that you can share useful links / ask for help / decide where to go to lunch / etc.
+The idea is that you'll have Discord open all day, so that you can share useful links / ask for help / decide where to go to lunch / etc.
 
 
 
@@ -72,4 +72,4 @@ The idea is that you'll have Slack open all day, so that you can share useful li
 
 ## Something missing?
 Open an issue or add your own contribution!!
-Enjoy your ride with Ai Saturdays :)
+Let's go Strive :)
