@@ -181,15 +181,15 @@ Don't be in a rush, take time to [read this article](https://developer.github.co
 
 ## Slack
 
-[Install Slack for Linux (beta)](https://get.slack.help/hc/en-us/articles/212924728-Slack-for-Linux-beta-).
+[Install Discord for Ubuntu](https://discord.com/download).
 
-Launch the app and sign in to `akademyai.slack.com` organization.
+Add your first name and last name (we cannot search by email)
 
 Make sure you upload a picture there as well.
 
-You can also sign in to Slack on your iPhone or Android device!
+You can also sign in to Discord on your iPhone or Android device!
 
-The idea is that you'll have Slack open all day, so that you can share useful links / ask for help / decide where to go to lunch / etc.
+The idea is that you'll have Discord open all day, so that you can share useful links / ask for help / decide where to go to lunch / etc.
 
 ## Installing Anaconda and Jupyter Notebook
 [Follow this tutorial done by Christian, City leader of Guayaquil](https://medium.com/@christian_tutiven/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37)
@@ -203,4 +203,4 @@ The idea is that you'll have Slack open all day, so that you can share useful li
 ## Something missing?
 Open an issue or add your own contribution!!
 
-Enjoy your ride with Ai Saturdays :)
+Time to Strive
