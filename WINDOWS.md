@@ -63,3 +63,24 @@ Ubuntu should boot in live mode. Time to install it!
 When it's done, **check you can still boot on Windows**. The idea is that every time you boot your computer, you now have a menu to choose if you want to boot Windows **or** Linux.
 
 Once again, restart the computer, boot on ubuntu, and follow [the UBUNTU setup guide](UBUNTU.md) to install Ruby & all the software we need!
+
+Here are some tracks to solve issues when installing Ubuntu:
+
+## No Devices choice at reboot
+
+Make sure Windows FastBoot is disabled and restart in **Advanced Mode**.
+
+## No OS choice at reboot
+
+Disable Windows FastBoot **&** Bios FastBoot (see below).
+
+**OR**
+
+Access the Bios and change Boot option **ONE by ONE** <=> choose an option, save, reboot, if your problem persists, come back to default Boot option, choose another option and move on.
+
+## Disable Bios FastBoot
+
+1. Restart your machine in default mode and keep pushing on <kbd>F2</kbd> or <kbd>F11</kbd> or <kbd>Suppr.</kbd> to access the Bios.
+2. Look for the boot options to disable the Bios FastBoot
+
+
