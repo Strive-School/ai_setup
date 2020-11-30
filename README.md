@@ -1,6 +1,8 @@
 # setup
 Let's do this! Get your laptop ready to code in Python and let's prepare the infrastructure to have AI related packages. 
 
+
+
 ## Important decisions to make
 - Which operative system are you using? Pick your guide. [Windows](https://github.com/Strive-School/ai_setup/blob/master/WINDOWS.md) | [Ubuntu](https://github.com/Strive-School/ai_setup/blob/master/ubuntu.md) | [MacOS](https://github.com/Strive-School/ai_setup/blob/master/MacOS.md). 
 - We <3 ubuntu but recommend having a windows backup via dualboot o VM to make sure Zoom works well
