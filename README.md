@@ -7,4 +7,5 @@ Let's do this! Get your laptop ready to code in Python and let's prepare the inf
 - Do you want to code in **Jupyter Notebooks** or an **IDE like PyCharm or VSCode**? If you just started coding, we recommend Jupyter. 
   - Here is a 50min video explaining all the [advantages of Jupyter Notebooks](https://www.youtube.com/watch?v=9Q6sLbz37gk) by Jeremy Howard.
   - Here is another video explaining all the [perks of an IDE](https://www.youtube.com/watch?v=7jiPeIFXb6U) by Joel Grus when it comes to using it for Data Science. 
+- If you use Jupyter Notebooks, we recommend also installing the [following extensions](https://github.com/Strive-School/ai_setup/blob/master/Jupyter_Packages.md) that will make your life easy
 - What color will your terminal be of? [Windows](https://www.youtube.com/watch?v=sckbApgo4Fk) | [Ubuntu](https://www.youtube.com/watch?v=li92nChHpCs) | [MacOS](https://www.youtube.com/watch?v=mr0iKqF6WGA). 
