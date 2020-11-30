@@ -13,3 +13,4 @@ Let's do this! Get your laptop ready to code in Python and let's prepare the inf
 
 ## Side challenge
 - What color will your terminal be of? [Windows](https://www.youtube.com/watch?v=sckbApgo4Fk) | [Ubuntu](https://www.youtube.com/watch?v=li92nChHpCs) | [MacOS](https://www.youtube.com/watch?v=mr0iKqF6WGA).
+- Send a screenshot of your customized terminal in Discord!
