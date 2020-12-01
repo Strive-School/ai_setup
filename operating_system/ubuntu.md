@@ -197,9 +197,6 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 ## Option A: Setup Google Collab
 [Follow this tutorial done by ]()
 
-## Option B: Setup Google Cloud (300€ free credits) linked to the fast.ai library
-[Follow this tutorial](https://medium.com/@howkhang/ultimate-guide-to-setting-up-a-google-cloud-machine-for-fast-ai-version-2-f374208be43)
-
 ## Something missing?
 Open an issue or add your own contribution!!
 
