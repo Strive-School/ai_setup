@@ -62,10 +62,10 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 [Follow this tutorial](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x)
 
 ## Launching your first Jupyter Notebook instance
-[Follow this tutorial done by Christian, City leader of Guayaquil](https://medium.com/@christian_tutiven/empezando-a-usar-jupyter-notebook-para-python-parte-1-instalaci%C3%B3n-94e97b4c5f37)
+[Follow this tutorial done by Christian, City leader of Guayaquil]()
 
 ## Option A: Setup Google Collab
-[Follow this tutorial done by Christian, City leader of Guayaquil](https://medium.com/@christian_tutiven/empezando-a-usar-google-colab-con-pytorch-4efb53933624?sk=4e97d2efe9ca54ce705bc081d19f6e14)
+[Follow this tutorial done by Christian, City leader of Guayaquil]()
 
 ## Option B: Setup Google Cloud (300€ free credits) linked to the fast.ai library
 [Follow this tutorial](https://medium.com/@howkhang/ultimate-guide-to-setting-up-a-google-cloud-machine-for-fast-ai-version-2-f374208be43)
