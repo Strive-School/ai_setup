@@ -9,11 +9,14 @@ There are three main things you need to do:
 ## Decent terminal --> Installing Git (will be extended in the Lecture on Wednesday)
 It can be done by downloading the following [file](https://www.jetbrains.com/edu-products/download/#section=idea). You probably have a 64-bit computer but make sure to [double check](https://www.howtogeek.com/howto/21726/how-do-i-know-if-im-running-32-bit-or-64-bit-windows-answers/)
 
+## Github Desktop
+A great tool to handle git repositories in Windows. You can install it [here](https://desktop.github.com/). It will all make sense tomorrow :)
+
 ## Anaconda
 [Tutorial](https://docs.anaconda.com/anaconda/install/windows/) to download, and customizable installation instructions
 
 ## Jupyter Notebook or Pycharm
-- Jupyter is already installed with Anaconda. You can install [PyCharm](https://www.jetbrains.com/edu-products/download/#section=idea) here. 
+- Jupyter is already installed with Anaconda. You can install [PyCharm](https://www.jetbrains.com/edu-products/download/#section=idea) here.
 
 # If you want to switch to Ubuntu, we recommend Dual booting or using a Virtual Machine given that you will still need Zoom
 
