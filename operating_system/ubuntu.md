@@ -7,6 +7,10 @@ The following instructions will help you to get ready for [Akademy.ai](http://ww
 - Install Anaconda
 - Install Jupyter Notebooks
 
+### Warning
+**Do not pip install!**. 
+Unless you really need to, but then be aware that conflicts may arise.
+
 
 ## GitHub account
 
