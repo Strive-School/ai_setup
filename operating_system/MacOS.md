@@ -6,6 +6,9 @@ You are here because you invested in an (expensive) awesome computer. Let's get 
 xcode-select --install
 ```
 
+### Warning
+**Do not pip install!**. 
+Unless you really need to, but then be aware that conflicts may arise.
 ## Sublime Text 3
 
 [Download](http://www.sublimetext.com/3) and install it. Package Control / Config is now automatic at step "Dotfiles" below.
