@@ -1,6 +1,6 @@
 # Setup instructions
 
-The following instructions will help you to get ready for [Akademy.ai](http://www.akademy.ai) 10 intense weeks!
+The following instructions will help you to get ready for [Strive School](https://strive.school/) 6 intense months!
 - Grab a decent text editor- Install a package manager
 - Pimp your Terminal
 - Setup git and GitHub
