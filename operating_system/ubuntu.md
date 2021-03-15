@@ -178,6 +178,41 @@ ssh-add ~/.ssh/id_ed25519
 
 Don't be in a rush, take time to [read this article](https://developer.github.com/v3/guides/managing-deploy-keys/) to get a better understanding of what those keys are used for or follow [this tutorial](https://help.github.com/en/articles/connecting-to-github-with-ssh) for a more detailed step-by-step guide. 
 
+## Package checker
+
+We hace compiled an executable file in order for you to check if you have correctly installed all the neccesary packages in ubuntu. In order to use it follow the instructions below.
+
+1.- Follow this [link](https://github.com/Strive-School/ai_setup/blob/master/package_checker_ubuntu) to the file.
+
+2.- On the right hand side of the page you should see a download buttom, click it and download the file to your machine.
+
+3.- Next thing you need to do is to open the folder where the file is located. There are two ways of doing this.
+
+  Manual: Right click the downloaded file and slect 'open in folder', this should open the folder where the file is located. Now right click in a blanc space    of the folder and select the 'Open In Terminal' option. Now you have a terminal opened on the same folder as the file.
+  
+  Console: you can use the ``` cd path``` command to move through the file system until you arrive to the folder where the file has been saved. for example 
+  ``` cd /home/jon/Downloads```.
+  
+4.- Once you have a terminal opened in the folder you can simple type ```./package_checker_ubuntu``` and if everything went correctly you should see something like this :
+
+```bash
+Welcome to the Strive School package checker: 
+
+The following packages are missing: 
+
+anaconda  
+
+sublime  
+
+pycharm-educational 
+
+```
+
+You can also execute the file from anywhere if you now the path to the file:
+```bash
+./Strive/dist/package_checker_ubuntu 
+```
+
 
 ## Discord
 
