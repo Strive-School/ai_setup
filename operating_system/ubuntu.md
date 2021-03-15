@@ -194,6 +194,11 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 ## Installing Anaconda and Jupyter Notebook
 [Follow this tutorial done by ]()
 
+## Guide to install Cuda for Linux
+[Follow this tutorial done by ](https://medium.com/analytics-vidhya/installing-tensorflow-with-cuda-cudnn-gpu-support-on-ubuntu-20-04-f6f67745750a)
+
+
+
 ## Option A: Setup Google Collab
 [Follow this tutorial done by ]()
 
