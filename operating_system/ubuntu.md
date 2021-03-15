@@ -195,7 +195,7 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 [Follow this tutorial done by ]()
 
 ## Guide to install Cuda for Linux
-If you have a NVIDIA GTX or RTX card that is cuda ready and you want to enhance your performance in PyTorch or tensorflow follow the link bellow to learn how to install cuda in Ubuntu,
+If you have a NVIDIA GTX or RTX card that is cuda ready and you want to enhance your performance in PyTorch or tensorflow,learn how to install cuda in Ubuntu,
 [Follow this tutorial ](https://medium.com/analytics-vidhya/installing-tensorflow-with-cuda-cudnn-gpu-support-on-ubuntu-20-04-f6f67745750a)
 
 ## Something missing?
