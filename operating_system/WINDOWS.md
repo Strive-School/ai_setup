@@ -6,7 +6,7 @@ There are three main things you need to do:
 - Having Anaconda for creating [virtual environments](https://www.youtube.com/watch?v=mIB7IZFCE_k)
 - Launching [Jupyter Notebooks](https://jupyter.org/) from Anaconda or an IDE like [PyCharm](https://www.jetbrains.com/edu-products/download/#section=idea)
 
-## Decent terminal --> Installing Git (will be extended in the Lecture on Wednesday)
+## Decent terminal --> Installing Git (will be extended in the Lecture on Friday)
 It can be done by downloading the following [file](https://git-scm.com/download/win). You probably have a 64-bit computer but make sure to [double check](https://www.howtogeek.com/howto/21726/how-do-i-know-if-im-running-32-bit-or-64-bit-windows-answers/)
 
 ## Github Desktop
