@@ -179,7 +179,7 @@ ssh-add ~/.ssh/id_ed25519
 Don't be in a rush, take time to [read this article](https://developer.github.com/v3/guides/managing-deploy-keys/) to get a better understanding of what those keys are used for or follow [this tutorial](https://help.github.com/en/articles/connecting-to-github-with-ssh) for a more detailed step-by-step guide. 
 
 
-## Slack
+## Discord
 
 [Install Discord for Ubuntu](https://discord.com/download).
 
@@ -196,11 +196,6 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 
 ## Guide to install Cuda for Linux
 [Follow this tutorial done by ](https://medium.com/analytics-vidhya/installing-tensorflow-with-cuda-cudnn-gpu-support-on-ubuntu-20-04-f6f67745750a)
-
-
-
-## Option A: Setup Google Collab
-[Follow this tutorial done by ]()
 
 ## Something missing?
 Open an issue or add your own contribution!!
