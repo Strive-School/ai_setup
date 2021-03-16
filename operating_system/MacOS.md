@@ -89,7 +89,7 @@ Oh My Zsh will not make you a 10x developer...but you **may feel like one**!
 
 Basically, it will make your **terminal useful** and **look nice**, which will make you want to code more with it!
 
-It runs on Zsh to provide cool features configurable within the ~/.zhrc config file. Install [Oh My Zsh](https://github.com/ohmyzsh/ohmzsh) by running the command
+It runs on Zsh to provide cool features configurable within the ~/.zhrc config file. Install [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) by running the command
 
 ```bash 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
