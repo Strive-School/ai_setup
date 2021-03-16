@@ -1,14 +1,25 @@
 # Setup instructions
 The following instructions will help you to get ready for Strive School 6 intense months!
 
-- Grab a decent text editor- Install a package manager
+- Install a package manager
 - Pimp your Terminal
+- Grab a decent text editor
 - Setup git and GitHub
 - Install Anaconda
 - Install Jupyter Notebook
 - Pick an IDE
 
 You are here because you invested in an (expensive) awesome computer. Let's get it AI ready!
+
+## GitHub account
+
+Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
+
+:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important for several reasons: 
+- employability
+- in case we use an internal dashboard with your avatars. --> WE DO!
+
+Please do it **now**.
 
 ## Launching your terminal
 All the code snippets you see in this tutorial are meant to be launched from your Terminal. 
@@ -109,7 +120,7 @@ Sublime is a text editor. You will later use an IDE most likely, but this is sti
 
 Github is the place where all developers upload their code. Kind of like a Dropbox of code. But it does much more than that. For the moment. Just installing it should be enough. 
 
-First, sign up for github if you don't have an account already. [Sign UP](https://github.com) 
+First, sign up for github if you don't have an account already (2nd warning!). [Sign UP](https://github.com) 
 
 Then, you can download and install [Github Desktop](https://desktop.github.com/).
 
