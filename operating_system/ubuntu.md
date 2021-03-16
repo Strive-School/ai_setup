@@ -12,8 +12,11 @@ The following instructions will help you to get ready for [Strive School](https:
 
 Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
 
-:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important for several reasons 1) employability and 2)in case we use an internal dashboard with your avatars. Please do it **now**.
-
+:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important for several reasons: 
+- employability
+- in case we use an internal dashboard with your avatars. --> WE DO!
+ 
+Please do it **now**.
 
 ## Git
 
@@ -59,10 +62,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # it will ask for your session password
 ```
 
-Be careful, those commands will ask you to type your password twice. At the end
+Be careful, those commands will ask you to **type your password twice**. At the end
 your prompt should look like this:
 
-![](images/ubuntu_oh_my_zsh.png)
+![](images/sudo_pass.png)
 
 If it doesn't, **ask a facilitator or search the error online!**.
 
