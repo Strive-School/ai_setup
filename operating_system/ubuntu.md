@@ -311,6 +311,19 @@ The idea is that you'll have Discord open all day, so that you can share useful 
 Okay, no more step by step guides now! Can you follow the official tutorial by Anaconda?
 [Install Anaconda here](https://docs.anaconda.com/anaconda/install/linux/)
 
+## Install Jupyter Notebook Extensions
+
+Open a terminal with anaconda using your custom environment and run
+`conda install -c conda-forge jupyter_nbextensions_configurator`.
+
+Then enables it by running `jupyter nbextensions_configurator enable --user` in the same terminal.
+
+Open a jupyter notebook and you should see the following:
+![image](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/raw/master/src/jupyter_nbextensions_configurator/static/nbextensions_configurator/tree_tab/icon.png) that is another tab beyond Files, Running and Clusters named Nbextensions. Click on it, then uncheck "disable configuration for extensions without explicit..." and choose the ones you prefer.
+
+[Here](https://www.loom.com/share/285ec5ee08f04b0cbab05f3ea519acef) a quick loom on how to enable some of the available extensions.
+
+
 ## Guide to install Cuda for Linux
 If you have a NVIDIA GTX or RTX card that is cuda ready and you want to enhance your performance in PyTorch or tensorflow,learn how to install cuda in Ubuntu,
 [Follow this tutorial ](https://medium.com/analytics-vidhya/installing-tensorflow-with-cuda-cudnn-gpu-support-on-ubuntu-20-04-f6f67745750a)
