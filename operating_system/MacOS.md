@@ -112,19 +112,62 @@ upgrade_oh_my_zsh
 
 Press (`⌘` + `Q`) to close your terminal/iTerm2 and restart it.
 
-## Sublime Text 3
+## Personalizing Oh-My-Zsh
+Time to make your terminal look super neat and make it helpful towards your coding journey. For this, we will add a series of packages to Oh-My-Zsh
+
+### Syntax Highlighting
+You want Zsh syntax highlighting. It will tell you **if your command is valid even before you run it**. It’s handy.
+
+To enable syntax highlighting, run
+```
+cd ~/.oh-my-zsh 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
+and then enable it by running
+```
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+```
+Restart your terminal for your changes to take effect.
+
+### Add ZSH-AutoSuggestion Plugin
+
+This plugin auto suggests any of the previous commands. Pretty handy! **To select the completion, simply press → key.**
+
+1.     Install the plugin
+`git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+
+2. Open `~/.zshrc` and add `zsh-autosuggestions` in the plugins section
+
+3. and then enable it by running
+```
+source ~/.zshrc
+```
+
+Restart your terminal for your changes to take effect.
+
+### Sublime Text 3
 Sublime is a text editor. You will later use an IDE most likely, but this is still super nice to open any type of files at glance. 
 
 -[Download](http://www.sublimetext.com/3) and install it. Package Control / Config is now automatic at step "Dotfiles" below.
 -You want to be able to launch sublime from your terminal with a simple `subl`, follow this [tutorial](https://github.com/Strive-School/ai_setup/blob/master/sublime_terminal.md)
+- However, since we have oh-my zsh, we can just also just add it to the plugin list, run `source ~/.zshrc` and launch it with another simple command `stt`.
 
-## Git
+### BONUS: Customize your Terminal Theme
+Many options and settings to [choose from!](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
 
-To install `git`, first open a terminal. To open a terminal, use the search barand type `Terminal`. Then click on the terminal icon.
+You can check how they look like [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
 
+### BONUS: Look and install other useful packages
+-This is a list of [all the oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+-It is probably worth checking the [most useful one's only :)](https://safjan.com/top-popular-zsh-plugins-on-github/)
 
+Am example of interesting plugins one could have in the `~/.zshrc` config file. If you want to modify it directly, you can also use sublime for it (if you have the package installed) `subl ~/.zshrc` --> edit the text, save, close and then enable it by running `source ~/.zshrc`
 
-We will explain the difference between **Git** and **Github** on Friday with the team project :) 
+```
+# Useful oh-my-zsh plugins
+plugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search zsh-autosuggestions git-flow-completion)
+```
 
 ## GitHub
 
@@ -183,7 +226,22 @@ mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "TYPE
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Copy-paste the public SSH key which we outputed with the last command and [add it to GitHub](https://github.com/settings/ssh).
+Copy-paste the public SSH key which we outputed with the last command and [add it to GitHub](https://github.com/settings/ssh). Click on
+**Add SSH key**, fill in the Title with your computer name, and paste the **Key**.
+Finish by clicking on the **Add key** green button.
+
+To check that this step is completed, in the terminal run this. **You will be
+prompted a warning**, type `yes` then `Enter`.
+
+```bash
+ssh -T git@github.com
+```
+
+If you see something like this, you're done!
+
+```bash
+# Hi --------! You've successfully authenticated, but GitHub does not provide shell access
+```
 
 ## Discord
 
@@ -197,9 +255,8 @@ Copy-paste the public SSH key which we outputed with the last command and [add i
 ## Install Anaconda and Jupyter notebook
 [Follow this tutorial](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x)
 
-## Launching your first Jupyter Notebook instance
-[Follow this tutorial done by Christian, City leader of Guayaquil]()
-
 ## Something missing?
 Open an issue or add your own contribution!!
-Let's go Strive :)
+
+**Time to Strive :)**
+
