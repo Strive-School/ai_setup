@@ -244,6 +244,23 @@ Don't be in a rush, take time to [read this article](https://developer.github.co
 
 ## Package checker
 
+You can download a package checker script in this [link](https://github.com/Strive-School/ai_setup/blob/master/checker_script.sh).
+
+Once you have downloaded it to run it simply open a terminal in where the file is and type ``` bash checker_script.sh```.
+
+If everything goes correctly you should see an outcome similar to the following:
+
+```
+code/stable,now 1.54.3-1615806378 amd64 [installed]
+git/focal-security,now 1:2.25.1-1ubuntu3.1 amd64 [installed]
+python3/focal,now 3.8.2-0ubuntu2 amd64 [installed,automatic]
+zsh/focal,now 5.8-3ubuntu1 amd64 [installed]
+conda 4.9.2
+Sublime Text Build 3211
+pycharm-community: /snap/bin/pycharm-community
+
+```
+
 We hace compiled an executable file in order for you to check if you have correctly installed all the neccesary packages in ubuntu. In order to use it follow the instructions below.
 
 1.- Follow this [link](https://github.com/Strive-School/ai_setup/blob/master/package_checker_ubuntu) to the file.
