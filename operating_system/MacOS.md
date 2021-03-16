@@ -14,17 +14,20 @@ You are here because you invested in an (expensive) awesome computer. Let's get 
 All the code snippets you see in this tutorial are meant to be launched from your Terminal. 
 ![image](https://user-images.githubusercontent.com/22689750/111239088-59ca2f80-85f0-11eb-8fde-14fa56f55262.png)
 
+One important notion to learn is what type for terminal you have: 
+- By default, Ubuntu and Mac have are based on bash, which allows for [quite complex scripts](https://devhints.io/bash). We will actually prompt you to use zsh, a more new and neat terminal language. Here is a [cheat sheet](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)   
+- The main difference is that ubuntu allows unrestricted acceess to many folders (open source). [Ubuntu terminal commands](https://techlog360.com/basic-ubuntu-commands-terminal-shortcuts-linux-beginner/)
+- On contrast, mac is more restricted on the types of things it lets its users do.
+- Windows is in between and actually it uses a slightly different [terminal language](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/).
+
+Make sure your terminal is nearby, and get ready to type some code!
+
 ## Command Line Tools
 First, you must have xcode. Here is an article explaining [why](https://www.quora.com/What-is-Xcode-and-why-do-I-need-it)
 
 ```bash
 xcode-select --install
 ```
-
-## Sublime Text 3
-Sublime is a text editor. You will later use an IDE most likely, but this is still super nice to open any type of files at glance. 
-
-[Download](http://www.sublimetext.com/3) and install it. Package Control / Config is now automatic at step "Dotfiles" below.
 
 ## Homebrew
 Homebrew is a package manager that makes your life easier. Basically, when you install a package it may have certain dependancies, homebrew makes sure to download them as well so that you [don't have any problems](https://www.quora.com/What-is-Homebrew-for-macOS#:~:text=Homebrew%20is%20a%20package%20manager%20for%20OS%20X.,to%20do%20one%20thing%20well.&text=Homebrew%20is%20an%20app%20for,(on%20the%20command%20line).)
@@ -40,23 +43,67 @@ install_or_upgrade "imagemagick"
 install_or_upgrade "jq"
 install_or_upgrade "openssl"
 ```
+## The power of homebrew
 
-## Oh-my-zsh
+One quick way to test how good is homebrew. We don't have to use the default terminal provided by Apple. 
+We can install a neat alternative to it called [iterm2](https://iterm2.com/features.html). 
 
-Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration.
-
-Sounds boring. Let's try again.
-
-Oh My Zsh will not make you a 10x developer...but you may feel like one! 
-
-Basically, it will make your **terminal useful** and look nice, which will make you want to code more with it!
-
-
-```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+``` 
+brew cask install iterm2
 ```
 
-(`⌘` + `Q`) your terminal and restart it.
+If you decide to keep using this after the installation after your main terminal, the only difference will be which terminal program you launch and the interface. 
+
+## Install ZSH
+> Zsh is a shell designed for interactive use, although it is also a powerful **scripting language**.
+
+By default, macOs ships with zsh located in `/bin/zsh`.
+
+Let’s install zsh using brew and make iTerm2 or terminal _-whatever your prefer-_ use it.
+
+```
+brew install zsh
+```
+
+## Installing Oh-my-zsh
+
+Oh My Zsh is an open source, community-driven framework based on the [ZSH](https://www.zsh.org/) script language.
+
+Sounds boring. Let's try again:
+
+Oh My Zsh will not make you a 10x developer...but you **may feel like one**! 
+
+Basically, it will make your **terminal useful** and **look nice**, which will make you want to code more with it!
+
+It runs on Zsh to provide cool features configurable within the ~/.zhrc config file. Install [Oh My Zsh](https://github.com/ohmyzsh/ohmzsh) by running the command
+
+```bash 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+if you are already on bash, the following might also work
+
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+Now, we can check the version we have just installed
+
+```
+zsh --version
+```
+You can keep up to date by downloading the latest version with the new features they added.
+
+```
+upgrade_oh_my_zsh
+```
+
+Press (`⌘` + `Q`) to close your terminal/iTerm2 and restart it.
+
+## Sublime Text 3
+Sublime is a text editor. You will later use an IDE most likely, but this is still super nice to open any type of files at glance. 
+
+-[Download](http://www.sublimetext.com/3) and install it. Package Control / Config is now automatic at step "Dotfiles" below.
+-You want to be able to launch sublime from your terminal with a simple `subl`, follow this [tutorial](https://github.com/Strive-School/ai_setup/blob/master/sublime_terminal.md)
+
 
 ## GitHub
 
