@@ -67,9 +67,9 @@ your prompt should look like this:
 
 ![](../images/sudo_pass.png)
 
-If it doesn't, **ask a facilitator or search the error online!**.
+If it doesn't, **ask a facilitator or search the error online!**. It should be your regular ubuntu password. Type it and **let it install**. 
 
-To make this change stick, restart your laptop (or virtual machine):
+To make this change stick, **restart your laptop** (or virtual machine):
 
 ```bash
 sudo reboot
