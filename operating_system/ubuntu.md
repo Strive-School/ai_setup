@@ -1,11 +1,14 @@
 # Setup instructions
 
 The following instructions will help you to get ready for [Strive School](https://strive.school/) 6 intense months!
-- Grab a decent text editor- Install a package manager
+- Install a package manager
 - Pimp your Terminal
+- Creating a github Account
+- Grab a decent text editor
 - Setup git and GitHub
 - Install Anaconda
 - Install Jupyter Notebooks
+- Pick an IDE
 
 
 ## GitHub account
@@ -17,18 +20,6 @@ Have you signed up to GitHub? If not, [do it right away](https://github.com/join
 - in case we use an internal dashboard with your avatars. --> WE DO!
  
 Please do it **now**.
-
-## Git
-
-To install `git`, first open a terminal. To open a terminal, you can click on the Ubuntu Start button in the sidebar and type `Terminal`. Then click on the terminal icon.
-
-Then copy this line with `Ctrl` + `C`:
-
-```bash
-sudo apt install -y git
-```
-
-:bulb: To **paste it in the terminal**, you need to use `Ctrl` + `Shift` + `V`.
 
 
 ## Sublime Text 3 - Your text editor
@@ -51,6 +42,17 @@ sudo apt install -y sublime-text
 
 Sublime Text is free without any time limitation but a popup will appear every ten saves to remind you there is a license to buy. You can hit `Esc` when this happens, but feel free to buy Sublime Text if you really like this one (there are alternatives).
 
+## Git
+
+To install `git`, first open a terminal. To open a terminal, you can click on the Ubuntu Start button in the sidebar and type `Terminal`. Then click on the terminal icon.
+
+Then copy this line with `Ctrl` + `C`:
+
+```bash
+sudo apt install -y git
+```
+
+:bulb: To **paste it in the terminal**, you need to use `Ctrl` + `Shift` + `V`.
 
 ## Oh-my-zsh - Fancy your Terminal
 
