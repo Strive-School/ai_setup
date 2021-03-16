@@ -1,11 +1,10 @@
 # Setup instructions
 
 The following instructions will help you to get ready for [Strive School](https://strive.school/) 6 intense months!
-- Install a package manager
-- Pimp your Terminal
 - Creating a github Account
 - Grab a decent text editor
 - Setup git and GitHub
+- Pimp your Terminal
 - Install Anaconda
 - Install Jupyter Notebooks
 - Pick an IDE
@@ -54,6 +53,15 @@ sudo apt install -y git
 
 :bulb: To **paste it in the terminal**, you need to use `Ctrl` + `Shift` + `V`.
 
+Verify the installation was successful by typing `which git --version`:
+
+```$ git --version git version 2.9.2```
+
+You have git connected to github (the website). You can verify that by typing in the terminal:
+```git```
+or
+```git help -a```
+
 ## Oh-my-zsh - Fancy your Terminal
 
 We will use the shell named `zsh` instead of `bash`, the default one.
@@ -91,10 +99,12 @@ Now that Zsh in installed, make it your default shell by running the command bel
 chsh -s $(which zsh)
 ```
 This will the default shell for the current user. If run sudo `chsh -s $(which zsh)` it will change the default shell for root.
-If this doesn't work, **let us know** and we will come sort it out manually :)
+If this doesn't work, **let us know** and we will come sort it out manually :) 
+
+At any time, you can switch between `bash` and `zsh` by typing `exec bash` or `exec zsh`. Not important for now. 
 
 ### Syntax Highlighting
-You want Zsh syntax highlighting. It will tell you if your command is valid even before you run it. It’s handy.
+You want Zsh syntax highlighting. It will tell you **if your command is valid even before you run it**. It’s handy.
 
 To enable syntax highlighting, run
 ```
@@ -131,10 +141,59 @@ source ~/.zshrc
 
 By adding sublime to the plugin list, you will be able to launch it with a simple `stt` command in the terminal
 
+### BONUS: Customize your Terminal Theme
+Many options and settings to [choose from!](https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/)
+
+You can check how they look like [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+
+### BONUS: Look and install other useful packages
+-This is a list of [all the oh-my-zsh plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+-It is probably worth checking the [most useful one's only :)](https://safjan.com/top-popular-zsh-plugins-on-github/)
+
+Am example of interesting plugins one could have in the `~/.zshrc` config file. If you want to modify it directly, you can also use sublime for it (if you have the package installed) `subl ~/.zshrc` --> edit the text, save, close and then enable it by running `source ~/.zshrc`
+
+```
+# Useful oh-my-zsh plugins
+plugins=(git gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search zsh-autosuggestions git-flow-completion)
+```
+
 ## GitHub
 
+Github is the place where all developers upload their code. Kind of like a Dropbox of code. But it does much more than that. For the moment. Just installing it should be enough. 
+
+First, sign up for github if you don't have an account already (2nd warning!). [Sign UP](https://github.com) 
+
+There are two ways in which you talk to Github in the web from your computer:
+- Directly from the terminal
+- Using an application such as github desktop
+
+BAD and GOOD news:
+- BAD: No direct github desktop for ubuntu
+- GOOD: You will become a better developer as a result of using the terminal
+
+## Making your Git <--> Github flow easy
+
+If you remember from before, we have git connected with the website (github.com).  
+
+The thing is... how does github know who we are? What if we want to work in a **super secret project**?
+![alt text](https://i.imgur.com/fpHasnV.jpeg)
+
+We can configure your Git username and email using the following commands, replacing Elon's name with your own. 
+These details will be associated with any commits that you create:
+
+```$ git config --global user.name "Elon Musk"```
+```$ git config --global user.email "elon@tesla.com"```
+
+Now, github is connected with your account, you can verify that by typing:
+```git config --list```, which will list the settings. There you should also find `user.name` and `user.email`.
+
+HTTPS is the one applied by default. Basically, every time you try to upload something, it will ask you for the email and password, even if it knows who you are. 
+SSH is similar to when you wanna always be **logged in to your email**. You create a key that tells github that this computer is always safe. 
+
+Here is an article explaining the differences [1](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols) [2](https://serverfault.com/questions/832899/difference-between-https-git-clone-and-ssh-git-clone)
+
 We need to generate SSH keys which are going to be used by GitHub and Heroku
-to authenticate you. Think of it as a way to log in, but different from the
+to authenticate you automatically. Think of it as a way to log in, but different from the
 well known username/password couple. If you already generated keys
 that you already use with other services, you can skip this step.
 
@@ -232,7 +291,8 @@ You can also sign in to Discord on your iPhone or Android device!
 The idea is that you'll have Discord open all day, so that you can share useful links / ask for help / decide where to go to lunch / etc.
 
 ## Installing Anaconda and Jupyter Notebook
-[Follow this tutorial done by ]()
+Okay, no more step by step guides now! Can you follow the official tutorial by Anaconda?
+[Install Anaconda here](https://docs.anaconda.com/anaconda/install/linux/)
 
 ## Guide to install Cuda for Linux
 If you have a NVIDIA GTX or RTX card that is cuda ready and you want to enhance your performance in PyTorch or tensorflow,learn how to install cuda in Ubuntu,
@@ -241,4 +301,4 @@ If you have a NVIDIA GTX or RTX card that is cuda ready and you want to enhance 
 ## Something missing?
 Open an issue or add your own contribution!!
 
-Time to Strive
+**Time to Strive**
