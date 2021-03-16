@@ -65,7 +65,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 Be careful, those commands will ask you to **type your password twice**. At the end
 your prompt should look like this:
 
-![](images/sudo_pass.png)
+![](../images/sudo_pass.png)
 
 If it doesn't, **ask a facilitator or search the error online!**.
 
