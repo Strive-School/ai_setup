@@ -36,9 +36,12 @@ Make sure your terminal is nearby, and get ready to type some code!
 ## Command Line Tools
 First, you must have xcode. Here is an article explaining [why](https://www.quora.com/What-is-Xcode-and-why-do-I-need-it)
 
+Open your terminal. Then copy this line with `⌘` + `C`:
+
 ```bash
 xcode-select --install
 ```
+:bulb: To **paste it in the terminal**, you need to use `⌘` + `Shift` + `V`.
 
 ## Homebrew
 Homebrew is a package manager that makes your life easier. Basically, when you install a package it may have certain dependancies, homebrew makes sure to download them as well so that you [don't have any problems](https://www.quora.com/What-is-Homebrew-for-macOS#:~:text=Homebrew%20is%20a%20package%20manager%20for%20OS%20X.,to%20do%20one%20thing%20well.&text=Homebrew%20is%20an%20app%20for,(on%20the%20command%20line).)
@@ -115,6 +118,13 @@ Sublime is a text editor. You will later use an IDE most likely, but this is sti
 -[Download](http://www.sublimetext.com/3) and install it. Package Control / Config is now automatic at step "Dotfiles" below.
 -You want to be able to launch sublime from your terminal with a simple `subl`, follow this [tutorial](https://github.com/Strive-School/ai_setup/blob/master/sublime_terminal.md)
 
+## Git
+
+To install `git`, first open a terminal. To open a terminal, use the search barand type `Terminal`. Then click on the terminal icon.
+
+
+
+We will explain the difference between **Git** and **Github** on Friday with the team project :) 
 
 ## GitHub
 
@@ -132,7 +142,8 @@ We will let you pick which you prefer the most during the course. For today, we 
 
 ### Since you have Hombrew:
 
-Open your terminal and install Git using Homebrew:
+Open your terminal and install Git* using Homebrew:
+* more on the differences between _git_ and _github_ on Friday
 
 ```$ brew install git```
 Verify the installation was successful by typing `which git --version`:
