@@ -211,7 +211,7 @@ pycharm-educational
 
 ```
 
-You can also execute the file from anywhere if you now the path to the file:
+You can also execute the file from anywhere if you know the path to the file:
 ```bash
 ./Strive/dist/package_checker_ubuntu 
 ```
