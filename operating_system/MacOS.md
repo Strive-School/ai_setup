@@ -146,6 +146,10 @@ source ~/.zshrc
 
 Restart your terminal for your changes to take effect.
 
+### Common issue with Oh-My-Zsh
+
+https://github.com/Strive-School/ai_setup/issues/4
+
 ### Sublime Text 3
 Sublime is a text editor. You will later use an IDE most likely, but this is still super nice to open any type of files at glance. 
 
