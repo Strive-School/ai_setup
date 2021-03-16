@@ -189,7 +189,7 @@ Open your terminal and install Git* using Homebrew:
 * more on the differences between _git_ and _github_ on Friday
 
 ```$ brew install git```
-Verify the installation was successful by typing `which git --version`:
+Verify the installation was successful by typing which `git --version`:
 
 ```$ git --version git version 2.9.2```
 
