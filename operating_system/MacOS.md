@@ -255,6 +255,19 @@ If you see something like this, you're done!
 ## Install Anaconda and Jupyter notebook
 [Follow this tutorial](https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x)
 
+## Install Jupyter Notebook Extensions
+
+Open a terminal with anaconda using your custom environment and run
+`conda install -c conda-forge jupyter_nbextensions_configurator`.
+
+Then enables it by running `jupyter nbextensions_configurator enable --user` in the same terminal.
+
+Open a jupyter notebook and you should see the following:
+![image](https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator/raw/master/src/jupyter_nbextensions_configurator/static/nbextensions_configurator/tree_tab/icon.png) that is another tab beyond Files, Running and Clusters named Nbextensions. Click on it, then uncheck "disable configuration for extensions without explicit..." and choose the ones you prefer.
+
+[Here](https://www.loom.com/share/285ec5ee08f04b0cbab05f3ea519acef) a quick loom on how to enable some of the available extensions.
+
+
 ## Something missing?
 Open an issue or add your own contribution!!
 
