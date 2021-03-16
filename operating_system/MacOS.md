@@ -146,6 +146,10 @@ source ~/.zshrc
 
 Restart your terminal for your changes to take effect.
 
+### Common issue with Oh-My-Zsh
+
+https://github.com/Strive-School/ai_setup/issues/4
+
 ### Sublime Text 3
 Sublime is a text editor. You will later use an IDE most likely, but this is still super nice to open any type of files at glance. 
 
@@ -189,7 +193,7 @@ Open your terminal and install Git* using Homebrew:
 * more on the differences between _git_ and _github_ on Friday
 
 ```$ brew install git```
-Verify the installation was successful by typing `which git --version`:
+Verify the installation was successful by typing which `git --version`:
 
 ```$ git --version git version 2.9.2```
 
