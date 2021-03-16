@@ -10,6 +10,9 @@ The following instructions will help you to get ready for Strive School 6 intens
 
 You are here because you invested in an (expensive) awesome computer. Let's get it AI ready!
 
+## Launching your terminall
+All the code snippets you see in this tutorial are meant to be launched from your Terminal. 
+
 ## Command Line Tools
 First, you must have xcode. Here is an article explaining [why](https://www.quora.com/What-is-Xcode-and-why-do-I-need-it)
 
