@@ -21,25 +21,21 @@ Have you signed up to GitHub? If not, [do it right away](https://github.com/join
 Please do it **now**.
 
 
-## Sublime Text 3 - Your text editor
+## VS Code
 
-A text editor is one of the most important tools of a developer. This doesn't necessarly have to be yours, since you can pick between this, and IDE and something on the web like Jupyter notebooks. Nevertheless, great asset to have installed just in case. u
-Follow these instructions in the Terminal:
+A text editor is one of the most important tools of a developer. This doesn't necessarly have to be yours, since you can pick between this, and IDE and something on the web like Jupyter notebooks. Nevertheless, great asset to have installed just in case. One of the biggest advantages of Code is that it can run both python files and jupyter notebooks. On top of it has a plethora of extensions.
 
-```bash
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-```
+Enter the following link:
 
-:point_up: This command will ask for your password with: `[sudo] password for <username>:`. Don't panick! Calmy type your password key by key. You won't have a visual feedback (like little `*`), that's **perfectly normal**, keep on typing. When you're done, hit `Enter` :muscle:.
+https://code.visualstudio.com/Download
 
-```bash
-sudo apt install -y apt-transport-https
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt update
-sudo apt install -y sublime-text
-```
+Download the .deb file and double click it.
 
-Sublime Text is free without any time limitation but a popup will appear every ten saves to remind you there is a license to buy. You can hit `Esc` when this happens, but feel free to buy Sublime Text if you really like this one (there are alternatives).
+Alternatively you can run this command:
+
+dpkg -i path/to/the/.deb
+
+
 
 ## Git
 
