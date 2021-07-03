@@ -9,6 +9,10 @@ The following instructions will help you to get ready for [Strive School](https:
 - Install Jupyter Notebooks
 - Pick an IDE
 
+### Warning
+**Do not pip install!**. 
+Unless you really need to, but then be aware that conflicts may arise.
+
 
 ## GitHub account
 
