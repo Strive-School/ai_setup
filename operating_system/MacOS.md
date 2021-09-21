@@ -44,18 +44,10 @@ xcode-select --install
 :bulb: To **paste it in the terminal**, you need to use `⌘` + `Shift` + `V`.
 
 ## Homebrew
-Homebrew is a package manager that makes your life easier. Basically, when you install a package it may have certain dependancies, homebrew makes sure to download them as well so that you [don't have any problems](https://www.quora.com/What-is-Homebrew-for-macOS#:~:text=Homebrew%20is%20a%20package%20manager%20for%20OS%20X.,to%20do%20one%20thing%20well.&text=Homebrew%20is%20an%20app%20for,(on%20the%20command%20line).)
-```bash
-sudo rm -rf /usr/local/Homebrew
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-sudo chown -R $(whoami) $(brew --prefix)/*
-brew update
-function install_or_upgrade { brew ls | grep $1 > /dev/null; if (($? == 0)); then brew upgrade $1; else brew install $1; fi }
-install_or_upgrade "git"
-install_or_upgrade "wget"
-install_or_upgrade "imagemagick"
-install_or_upgrade "jq"
-install_or_upgrade "openssl"
+Homebrew is a package manager that makes your life easier. Basically, when you install a package it may have certain dependancies, homebrew makes sure to download them as well so that you [don't have any problems]
+
+https://brew.sh/
+
 ```
 ## The power of homebrew
 
