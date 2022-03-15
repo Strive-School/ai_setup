@@ -55,7 +55,7 @@ One quick way to test how good is homebrew. We don't have to use the default ter
 We can install a neat alternative to it called [iterm2](https://iterm2.com/features.html). 
 
 ``` 
-brew cask install iterm2
+brew install iterm2 --cask
 ```
 
 If you decide to keep using this after the installation after your main terminal, the only difference will be which terminal program you launch and the interface. 
